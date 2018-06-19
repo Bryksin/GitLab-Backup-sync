@@ -1,0 +1,12 @@
+{
+    "~/GitLab-Sync/SyncGroup_1": [
+        "git@<domain>:<group>/<project_name_1>.git",
+        "git@<domain>:<group>/<project_name_2>.git",
+        "git@<domain>:<group>/<project_name_X>.git"
+        ],
+    "~/GitLab-Sync/SyncGroup_2": [
+        "git@<domain>:<group>/<project_name_1>.git",
+        "git@<domain>:<group>/<project_name_2>.git",
+        "git@<domain>:<group>/<project_name_X>.git"
+        ]
+}

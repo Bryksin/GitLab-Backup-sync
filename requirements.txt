@@ -1,0 +1,2 @@
+python-gitlab==1.4.0
+GitPython==2.1.10
