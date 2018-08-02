@@ -108,7 +108,7 @@ def sync_all(ignore=False):
     base_local_path = os.path.expanduser(config.get('Host', 'local_path'))
     git_lab = gitlab.Gitlab(config.get('Host', 'gitlab_host'), config.get('Host', 'gitlab_secret_token'),
                             ssl_verify=config.getboolean('Host', 'gitlab_verify_ssl'))
-    for project in git_lab.projects.list():
+    for project in git_lab.projects.list(all=True):
 
         if ignore:
             if project.ssh_url_to_repo in ignored or project.http_url_to_repo in ignored:
